@@ -1,0 +1,80 @@
+/* SignUp Page Styling */
+.signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.signup-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signup-form label {
+    text-align: left;
+    font-weight: bold;
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.signup-form input,
+.signup-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.signup-form button {
+   
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signup{
+    background-color: rgb(220, 240, 220);
+    height: 100vh;
+    padding-top: 1px;
+    
+}
+
+
+
+/* Login Navigation Button - Outline Style */
+.login-button {
+    margin-top: 10px;
+    background-color: transparent; /* Transparent background */
+    color: #28a745; /* Green text */
+    border: 2px solid #28a745; /* Green border */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-button:hover {
+    background-color: #28a745; /* Green background on hover */
+    color: white;
+}
+

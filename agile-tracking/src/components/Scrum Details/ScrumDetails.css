@@ -1,0 +1,76 @@
+/* ScrumDetails Container */
+.scrum-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headers */
+.scrum-container h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.scrum-container h4 {
+    color: #444;
+    margin-top: 20px;
+}
+
+/* Tasks List */
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    background: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Status Dropdown */
+.task-status {
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Users List */
+.user-list {
+    list-style: none;
+    padding: 0;
+}
+
+.user-list li {
+    background: white;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Green Buttons */
+.green-button {
+    background-color: green;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.green-button:hover {
+    background-color: darkgreen;
+}
