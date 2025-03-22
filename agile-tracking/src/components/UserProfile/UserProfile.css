@@ -1,0 +1,110 @@
+/* Light background outside the profile box */
+.profile-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+/* Green buttons */
+.green-button, .add-user-button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.green-button:hover, .add-user-button:hover {
+    background-color: darkgreen;
+}
+
+/* Properly aligned user form */
+.user-form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    max-width: 400px; /* Restrict width for better alignment */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Input fields aligned properly */
+.user-form div {
+    margin-bottom: 15px;
+}
+
+.user-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.user-form input, .user-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Add gap between 'Add New User' button and user list */
+.add-user-button {
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* User list styling */
+.user-list {
+    list-style: none;
+    padding: 0;
+}
+
+.user-list li {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Task list styling */
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Task Status Colors */
+.task-item.done .status-text {
+    color: green;
+    font-weight: bold;
+}
+
+.task-item.to-do .status-text {
+    color: red;
+    font-weight: bold;
+}
+
+.task-item.in-progress .status-text {
+    color: orange;
+    font-weight: bold;
+}
+.user{
+    background-color: rgb(219, 239, 232);
+    height: 100vh;
+    padding-top: 1px;
+}

@@ -1,0 +1,178 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "adminpassword",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Employee One",
+      "email": "employee1@example.com",
+      "password": "password1",
+      "role": "employee"
+    },
+    {
+      "id": "3",
+      "name": "Employee Two",
+      "email": "employee2@example.com",
+      "password": "password2",
+      "role": "employee"
+    },
+    {
+      "name": "Employee Three",
+      "email": "employee3@example.com",
+      "password": "password3",
+      "role": "employee",
+      "id": "4"
+    },
+    {
+      "id": "c90a",
+      "name": "sunanda",
+      "email": "sunanda@gmail.com",
+      "password": "sunanda123",
+      "role": "employee"
+    },
+    {
+      "id": "8502",
+      "name": "kavya",
+      "email": "kavya@gamil.com",
+      "password": "kavya123",
+      "role": "employee"
+    }
+  ],
+  "scrums": [
+    {
+      "id": "1",
+      "name": "Scrum Team A"
+    },
+    {
+      "id": "2",
+      "name": "Scrum Team B"
+    },
+    {
+      "name": "Scrum Team C",
+      "id": "3"
+    },
+    {
+      "id": "5021",
+      "name": "scrum d"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Task One",
+      "description": "Description for Task One",
+      "status": "In Progress",
+      "scrumId": 1,
+      "assignedTo": 2,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-01"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "Done",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-19"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-19"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-20"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Task Two",
+      "description": "Description for Task Two",
+      "status": "Done",
+      "scrumId": 2,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-02"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-07-03"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-19"
+        }
+      ]
+    },
+    {
+      "title": "Task 3",
+      "description": "Description for Task 3",
+      "status": "In Progress",
+      "scrumId": 3,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        }
+      ],
+      "id": "3"
+    },
+    {
+      "id": "14c7",
+      "title": "react application",
+      "description": "it is used to develop web",
+      "status": "To Do",
+      "scrumId": "019f",
+      "assignedTo": "2",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-20"
+        }
+      ]
+    },
+    {
+      "id": "4f23",
+      "title": "Agile-Tracking-system",
+      "description": "complete the project",
+      "status": "To Do",
+      "scrumId": "1c3c",
+      "assignedTo": "4",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-21"
+        }
+      ]
+    },
+    {
+      "id": "e4c0",
+      "title": "react",
+      "description": "project",
+      "status": "To Do",
+      "scrumId": "5021",
+      "assignedTo": "2",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-21"
+        }
+      ]
+    }
+  ]
+}
